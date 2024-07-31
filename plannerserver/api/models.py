@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here
-class ticket(models.model)
+class Ticket(models.Model):
     id = models.AutoField(primary_key=True)
     title = models.CharField(max_length=255, null=False)
     description = models.TextField()
@@ -9,7 +9,4 @@ class ticket(models.model)
     priority = models.CharField(max_length=255, null=False)
     owner = models.CharField(max_length=255, null=False)
     created_on = models.DateTimeField(auto_now_add=True)
-
-
-
 
