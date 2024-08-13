@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;700&display=swap');
+
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2 !important;
+    text-overflow: ellipsis !important;
+    overflow : hidden !important;    
+  }
+
+.cardoptions {
+    position: relative;
+    Overflow: auto;
+}
